@@ -1,0 +1,63 @@
+# ----------------------------
+# OS / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ----------------------------
+# Composer
+# ----------------------------
+/vendor/
+/composer.phar
+
+# ----------------------------
+# Drupal core files (generated)
+# ----------------------------
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Allow default settings.php but ignore secrets
+!/web/sites/default/settings.php
+/web/sites/default/settings.*.php
+
+# ----------------------------
+# Environment files
+# ----------------------------
+.env
+.env.*
+*.env
+
+# ----------------------------
+# Logs / temp
+# ----------------------------
+*.log
+tmp/
+temp/
+
+# ----------------------------
+# Build artifacts
+# ----------------------------
+/web/libraries/
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# PHPUnit / Drush
+# ----------------------------
+.phpunit.result.cache
+/drush/contrib/
+/drush/local/
+
+# ----------------------------
+# Drupal scaffolding extras
+# ----------------------------
+/web/.htaccess
+/web/.ht.router.php
+/web/private/
