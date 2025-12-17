@@ -17,6 +17,8 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.6",
+        "drupal/bootstrap5": "^4.0",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/commerce": "^3.2",
         "drupal/commerce_invoice": "^2.2",
         "drupal/core-composer-scaffold": "^10.3",
