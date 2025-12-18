@@ -1,0 +1,11 @@
+name: 'Layout Paragraphs'
+type: module
+description: 'Field widget and formatter for using layouts with paragraph fields.'
+core_version_requirement: ^10 || ^11
+package: 'Paragraphs'
+configure: layout_paragraphs.label_settings
+dependencies:
+  - paragraphs:paragraphs
+  - drupal:layout_discovery
+test_dependencies:
+  - block_field:block_field

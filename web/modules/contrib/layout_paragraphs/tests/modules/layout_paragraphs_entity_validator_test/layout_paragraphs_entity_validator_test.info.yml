@@ -1,0 +1,7 @@
+name: Layout Paragraphs Entity Validator Test
+description: Helps test custom entity validators on paragraphs
+package: Testing
+type: module
+core_version_requirement: ^9.2 || ^10 || ^11
+dependencies:
+  - paragraphs:paragraphs
